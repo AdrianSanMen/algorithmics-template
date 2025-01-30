@@ -11,7 +11,7 @@ def listadoPrimos(n):
 
 if __name__ == '__main__':
     n = 10000
-    t1 = time()  
+    t1 = time()
     primes = listadoPrimos(n)
     t2 = time()
     print("n =", n, "***", "time =", int(1000*(t2-t1)), "milliseconds)")
